@@ -10,4 +10,4 @@ while index < whileIndex:
             count += 1
     index += 1
 
-print("Count:", count)
+print("Index count:", count)
