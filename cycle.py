@@ -2,6 +2,9 @@ word = input("Enter word: ")
 symbol = input("Enter symbol: ")
 whileIndex = int(input("While index < "))
 
+if whileIndex > len(word):
+    whileIndex = len(word)
+
 count = 0
 index = 0
 while index < whileIndex:
